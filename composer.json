@@ -1,0 +1,34 @@
+{
+    "name": "snnick/laravel-file-downloader",
+    "description": "Laravel package for file download",
+    "keywords": [
+        "laravel",
+        "file-download"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mykola Sekretarov",
+            "email": "9034916@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.0|^8.1",
+        "barryvdh/laravel-dompdf": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Snnick\\LaravelFileDownloader\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Snnick\\LaravelFileDownloader\\LaravelFileDownloaderServiceProvider"
+            ]
+        }
+    }
+}
