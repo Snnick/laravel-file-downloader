@@ -28,7 +28,6 @@ $strategy = new PdfDownloader(
             'invoices',
             ['calculations' => new CalculationsDTO($calculations)]
         );
-
 $service = new FileDownloaderService($strategy);
 $filepath = $service->download();
 ```
