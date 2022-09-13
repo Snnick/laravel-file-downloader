@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use Snnick\LaravelFileDownloader\Contracts\FileDownloaderContract;
 use Snnick\LaravelFileDownloader\Services\FileDownloaderService;
 
-class LaravelPdfDownloaderServiceProvider extends ServiceProvider
+class LaravelFileDownloaderServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
