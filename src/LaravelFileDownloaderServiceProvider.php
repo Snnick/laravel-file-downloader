@@ -29,7 +29,6 @@ class LaravelFileDownloaderServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->singleton(FileDownloaderContract::class, FileDownloaderService::class);
         $this->mergeConfigFrom(__DIR__ . '/Config/file-downloader.php', 'file-downloader');
     }
 }
