@@ -3,8 +3,6 @@
 namespace Snnick\LaravelFileDownloader;
 
 use Illuminate\Support\ServiceProvider;
-use Snnick\LaravelFileDownloader\Contracts\FileDownloaderContract;
-use Snnick\LaravelFileDownloader\Services\FileDownloaderService;
 
 class LaravelFileDownloaderServiceProvider extends ServiceProvider
 {
